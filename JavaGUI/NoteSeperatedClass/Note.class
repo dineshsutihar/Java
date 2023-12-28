@@ -1,0 +1,32 @@
+package JavaLearning.NoteSeperatedClass;
+
+public class Note {
+    private String fileName;
+    private String noteText;
+
+    public Note() {
+        this.fileName = "";
+        this.noteText = "";
+    }
+
+    public Note(String fileName, String noteText) {
+        this.fileName = fileName;
+        this.noteText = noteText;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public String getNoteText() {
+        return noteText;
+    }
+
+    public void setNoteText(String noteText) {
+        this.noteText = noteText;
+    }
+}

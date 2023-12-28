@@ -1,0 +1,25 @@
+package JavaLearning;
+
+class Testa<T> {
+    // An object of type T is declared
+    T obj;
+
+    Testa(T obj) {
+        this.obj = obj;
+    } // constructor
+
+    public T getObject() {
+        return this.obj;
+    }
+}
+
+class Main11 {
+    public static void main(String[] args) {
+        // instance of Integer type
+        Testa<Integer> iObj = new Testa<Integer>(25);
+        System.out.println(iObj.getObject());
+        // instance of String type
+        Testa<String> sObj = new Testa<String>("java programming");
+        System.out.println(sObj.getObject());
+    }
+}
