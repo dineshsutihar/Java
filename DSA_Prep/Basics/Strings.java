@@ -11,7 +11,7 @@ public class Strings {
         Scanner sc = new Scanner(System.in);
         String name3 = sc.next(); // only takes the first word
         String name4 = sc.nextLine(); // takes the whole line
-        System.err.println(name3);
+        System.out.println(name3);
         System.err.println(name4);
 
         // String Methods
