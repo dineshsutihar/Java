@@ -1,13 +1,13 @@
-# Java Class and Objects:
+# Java Class and Objects
 
 <p> An object is and entity tht has state and behavior. For example, a bycycle is an Object. It has </p>
 
 - <b> State</b>  : idle, first gear, etc
-- <b> Behaviors </b>: braking, acceleration, etc. 
+- <b> Behaviors </b>: braking, acceleration, etc.
 
+### Class
 
-### Class: 
-A class is a blue print for the object. Before we create an Object. we first need to define the class. 
+A class is a blue print for the object. Before we create an Object. we first need to define the class.
 
 We can think of the class as a sketch (prototype) of a house. It contains all the details about the floors, doors, windows, etc. Based on these descriptions we build the house. House is the object.
 
@@ -16,19 +16,20 @@ Since many houses can be made from the same description, we can create many obje
 <hr>
 
 ### Create a class in Java
+
 ```java
 class ClassName {
   // fields
   // methods
 }
 ```
+
 Here, fields (variables) and methods represent the state and behavior of the object respectively.
 
 - fields are used to store data
 - methods are used to perform some operations
 
-
-### Objects:
+### Objects
 
 An object is called an instance of a class. For example, suppose Bicycle is a class then MountainBicycle, SportsBicycle, TouringBicycle, etc can be considered as objects of the class.
 
@@ -76,3 +77,7 @@ Bicycle sportsBicycle = new Bicycle();
 sportsBicycle.gear;
 sportsBicycle.braking();
 ```
+
+## Access Modifiers Summarized in one figure
+
+![Access Modifiers](image.png)
