@@ -4,6 +4,7 @@ class Animal {
     // methods and fields 
 
     String name;
+    // method of super class
     public void eat(){
         System.out.println("I can eat");
     }
@@ -14,6 +15,14 @@ class Dog extends Animal {
     // methods and fields of Dog
     public void display(){
         System.out.println("My name is " + name);
+    }
+
+    // overriding the eat() method
+    @Override
+    public void eat(){
+        // calling parent class eat method.
+        super.eat();
+        System.out.println("I eat dog food only.");
     }
 }
 
@@ -53,3 +62,21 @@ public class Inheritance {
 
 
 //  Method Overriding in java Inheritance
+
+// In this case, the method in the subclass overrides the method in the superclass. This concept is known as method overriding in Java.
+
+// NOTE: We have used the '@Override' annotation to tell the compiler that we are overriding a method. However, the annotation is not mandatory.
+
+// example is on above code
+
+
+
+
+/*
+ * TYPES OF INHERITANCE:
+ * 1. Single Inheritance :
+ * 2. Multilevel inheritance :
+ * 3. Hierarchical Inheritance :
+ * 4. Multiple Inheritance (not supported) : 
+ * 5. Hybrid Inheritance : 
+ */
