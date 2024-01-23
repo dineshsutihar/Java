@@ -74,9 +74,9 @@ public class Inheritance {
 
 /*
  * TYPES OF INHERITANCE:
- * 1. Single Inheritance :
- * 2. Multilevel inheritance :
- * 3. Hierarchical Inheritance :
- * 4. Multiple Inheritance (not supported) : 
- * 5. Hybrid Inheritance : 
+ * 1. Single Inheritance : class B extends class A
+ * 2. Multilevel inheritance : class B extends C extends class A
+ * 3. Hierarchical Inheritance : class A extends Class B and Class C extends Class B
+ * 4. Multiple Inheritance (not supported) : single class extends fro multiple super classes 
+ * 5. Hybrid Inheritance : combination of two or more types of inheritance.
  */
