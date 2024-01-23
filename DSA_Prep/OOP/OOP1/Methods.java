@@ -1,4 +1,4 @@
-package DSA_Prep.OOP;
+package DSA_Prep.OOP.OOP1;
 
 public class Methods {
     // A method is a block of code which only runs when it is called.
