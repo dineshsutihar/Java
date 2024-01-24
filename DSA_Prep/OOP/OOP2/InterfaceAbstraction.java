@@ -38,6 +38,20 @@ class Multi implements Language1,Language2{
     }
 }
 
+// Interface can extend other interfaces using 'extends' Keyword.
+interface NewInterface extends Language1,Language2{
+     // by default public static final
+    String type = "programming language";
+
+    // by default public
+    void name(String name);
+
+    // After the release of Java 8, we can add implementation inside an interface, these methods are called default methods. ex:
+    public default void getDetails(){
+        System.out.println("Body implemented inside interface and default keyword is necessary.");
+    }
+}
+
 public class InterfaceAbstraction {
     public static void main(String[] args) {
         
