@@ -63,6 +63,7 @@ public static void main(String[] args) {
         int updatedNumber = newBitmask & number;
         System.out.println(updatedNumber);
     }
+    sc.close();
 
 }
 
