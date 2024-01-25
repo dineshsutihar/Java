@@ -48,21 +48,21 @@ public static void main(String[] args) {
     // Update Bit : First Bit Mask and then AND with 1's Complement and then OR : we will use this to update a bit at a particular position : for example we want to update the bit at position 1 in the number 5 to 1
 
     Scanner sc = new Scanner(System.in);
-int oper = sc.nextInt();
-// oper=1 -> set; oper=0 -> clear
-int n = 5;
-int pos = 1;
-int bitMask = 1<<pos;
-if(oper == 1) {
-//set
-int newNumber = bitMask | n;
-System.out.println(newNumber);
-} else {
-//clear
-int newBitMask = ~(bitMask);
-int newNumber = newBitMask & n;
-System.out.println(newNumber);
-}
+    int oper = sc.nextInt();
+    // oper=1 -> set; oper=0 -> clear
+    int number = 5;
+    int position = 1;
+    int bitmask = 1 << position;
+    if (oper == 1) {
+        // set
+        int updatedNumber = bitmask | number;
+        System.out.println(updatedNumber);
+    } else {
+        // clear
+        int newBitmask = ~(bitmask);
+        int updatedNumber = newBitmask & number;
+        System.out.println(updatedNumber);
+    }
 
 }
 
