@@ -126,8 +126,39 @@ public class NestedAndInnerClass {
 }
 */
 
+// =====================================================================
+
+// Static Nested Class
+// Here we dont need to create the object of outer class to access the inner class;
+
+class MotherBoard{
+    // static nested class
+    static class USB{
+        int usb2 = 2;
+        int usb3 = 3;
+        int getTotalPorts(){
+            return usb2 + usb3;
+        }
+    }
+}
 
 public class NestedAndInnerClass {
 
-    
+    public static void main(String[] args) {
+        
+        // create an object of the static nested class
+        // using the name of the outer class
+        MotherBoard.USB usb = new MotherBoard.USB();
+        System.out.println("Total Ports = "+ usb.getTotalPorts());
+    }
 }
+
+/*
+    Key point to remember:
+    - Java treats the inner class as a regular member of a class. They are just like methods and variables declared inside a class.
+    - Since inner classes are members of the outer class, you can apply any access modifiers like private, protected to your inner class which is not possible in normal classes.
+    - Since the nested class is a member of its enclosing outer class, you can use the dot (.) notation to access the nested class and its members.
+    - Using the nested class will make your code more readable and provide better encapsulation.
+    - Non-static nested classes (inner classes) have access to other members of the outer/enclosing class, even if they are declared private.
+
+ */
