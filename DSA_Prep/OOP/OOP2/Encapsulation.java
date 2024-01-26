@@ -1,4 +1,4 @@
-package DSA_Prep.OOP.OOP2;
+
 
 // Encapsulation is one of the key feature of oop. it refers to the bundling of fields and methods inside a single class. 
 

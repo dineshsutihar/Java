@@ -1,4 +1,4 @@
-package DSA_Prep.OOP.OOP2;
+
 // polymorphism is an important concept of oop it simply means more than one form.
 
 class Polygon {

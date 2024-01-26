@@ -1,4 +1,4 @@
-package DSA_Prep.OOP.OOP2;
+// Remove the package declaration
 
 // Abstract class
 abstract class Language {

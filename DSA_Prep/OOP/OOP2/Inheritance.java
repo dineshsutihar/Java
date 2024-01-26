@@ -1,4 +1,3 @@
-package DSA_Prep.OOP.OOP2;
 
 class Animal {
     // methods and fields 

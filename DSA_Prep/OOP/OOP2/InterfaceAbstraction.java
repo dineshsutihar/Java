@@ -1,5 +1,3 @@
-package DSA_Prep.OOP.OOP2;
-
 
 // An interface is a fully abstract class. It includes a group of abstract methods(methods without a body).
 
