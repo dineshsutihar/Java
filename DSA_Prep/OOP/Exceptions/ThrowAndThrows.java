@@ -36,6 +36,9 @@ public class ThrowAndThrows {
         catch (IOException e) {
             System.out.println(e);
         }
+        // catch (Exception | ArithmeticException | ArrayIndexOutOfBoundsException e) {
+        //     System.out.println(e.getMessage());
+        //   }
     }
 
 
