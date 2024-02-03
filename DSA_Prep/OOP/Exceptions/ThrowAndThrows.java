@@ -29,8 +29,11 @@ public class ThrowAndThrows {
             divideByZero();
             findFile();
         }
-        catch (ArithmeticException  | IOException e) {
+        catch (ArithmeticException e) {
             System.out.println("ArithmeticException => " + e.getMessage());
+            
+        }
+        catch (IOException e) {
             System.out.println(e);
         }
     }
