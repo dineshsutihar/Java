@@ -13,6 +13,7 @@ public class ThrowsFH {
 }
 
 class calc {
+    @SuppressWarnings("unused")
     void show() throws Exception {
         int x = 20, y;
         y = x / 0;

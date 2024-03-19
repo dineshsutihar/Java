@@ -1,4 +1,3 @@
-package JavaLearning;
 
 public class Area {
     public static void main(String arga[]) {

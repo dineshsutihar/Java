@@ -1,4 +1,3 @@
-package JavaLearning;
 
 interface Polygon {
     void getArea();

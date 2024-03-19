@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class TwoDArray {
     public static void main(String args[]) {

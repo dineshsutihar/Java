@@ -1,4 +1,3 @@
-package JavaLearning;
 /* public class ArrayLoopCall {
 
     public static void main(String[] args) {

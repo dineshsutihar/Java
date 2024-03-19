@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class ThreeArray {
     public static void main(String[] args) {

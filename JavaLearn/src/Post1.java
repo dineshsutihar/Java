@@ -21,6 +21,7 @@ class Payment1 {
 class Sale1 {
     // properties
     private double total;
+    @SuppressWarnings("unused")
     private Payment payment;
 
     // constructors

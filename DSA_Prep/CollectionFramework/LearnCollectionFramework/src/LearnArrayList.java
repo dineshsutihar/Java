@@ -26,13 +26,13 @@ public class LearnArrayList {
 
 
 //        To get the list item
-        System.out.println(list.get(1));// get is used to retrive the data from list and it accept the parameter which is index;
+        System.out.println(list.get(1));// get is used to retrive the data from list, and it accepts the parameter which is index;
 
 //        To remove the items from the list
-        list.remove(1); // remove is used to delete the item from the list and it accepts index as a parameter
+        list.remove(1); // remove is used to delete the item from the list, and it accepts index as a parameter
         System.out.println(list);
 
-//        on the above we have accepted the position but if we want to delete the element but we dont know positon then we do the following
+//        on the above we have accepted the position but if we want to delete the element, but we don't know position then we do the following
         list.remove(Integer.valueOf(30)); // it will delete the index of 30 what ever it is
         System.out.println(list);
 
@@ -75,7 +75,19 @@ public class LearnArrayList {
             System.out.println("iterator "+it.next()); //it.next() helps to get the value form list
         }
 
+        //        Here are few methods mostly used in ArrayLis
+        /* boolean isEmpty() -> to check weather the list is empty or not
+
+
+        => here are few iterator() methods used:
+            # int lastIndexOf(Object o) -> return last element else return -1 if element is no present
+            # Object[] toArray() -> to convert the Arraylist into array
+            # boolean contains() -> returns true if condition is true else it will return false
+            # int indexOf(Object o) -> it will return first occurance of the object in list and
+         *
+         * */
+    }
+
 
 
     }
-}

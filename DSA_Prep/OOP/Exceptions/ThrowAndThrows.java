@@ -21,6 +21,8 @@ public class ThrowAndThrows {
         // code that may generate IOException
         File newFile = new File("test.txt");
         FileInputStream stream = new FileInputStream(newFile);
+
+        stream.close();
     }
 
       

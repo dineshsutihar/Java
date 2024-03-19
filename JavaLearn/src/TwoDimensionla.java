@@ -1,4 +1,3 @@
-package JavaLearning;
 
 public class TwoDimensionla {
     public static void main(String[] args) {

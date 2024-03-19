@@ -1,6 +1,7 @@
 package JavaLearning.Lab_Work;
 
 public class MultiplicationUsingConstructor {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Temp obj3 = new Temp(5, 16);
     }

@@ -1,4 +1,4 @@
-package JavaLearning;
+
 // WAP a java program to calculate the sum and average of a array.
 
 public class AC2 {

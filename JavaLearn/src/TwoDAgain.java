@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class TwoDAgain {
     public static void main(String args[]) {

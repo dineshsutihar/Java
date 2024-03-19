@@ -4,6 +4,7 @@ interface Sayable {
         System.out.println("Hello... I'm default method");
     }
 
+    @SuppressWarnings("unused")
     private void saySomething() {
         System.out.println("Hello... I'm private method");
     }

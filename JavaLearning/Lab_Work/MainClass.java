@@ -5,6 +5,7 @@ interface Sayable {
         System.out.println("This is a default method.");
     }
 
+    @SuppressWarnings("unused")
     private void saySomething() {
         System.out.println("Hello... I'm private method.");
     }
@@ -17,7 +18,8 @@ class PrivateInterface implements Sayable {
 
     public void callSaySomething() {
         // calling private method indirectly through a public method
-        saySomething();
+        
+        //saySomething();
     }
 }
 

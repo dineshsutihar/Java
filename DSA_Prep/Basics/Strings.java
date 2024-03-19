@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Strings {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // Srings Declaration
         String name = "Dinesh Sutihar";
@@ -30,7 +31,7 @@ public class Strings {
         System.out.println(name.toLowerCase()); // convert to lowercase
         System.out.println(name.toUpperCase()); // convert to uppercase
         System.out.println(name.trim()); // remove spaces from start and end
-
+        sc.close();
         // Concatenation
         System.out.println(name.concat(name2));
         System.out.println(name + name2);

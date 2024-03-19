@@ -1,4 +1,5 @@
 public class Array {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // dataType[] arrayName; e.g. int[] arr;
 

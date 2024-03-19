@@ -1,4 +1,3 @@
-package JavaLearning;
 
 // Demonstrate boolean values.
 class BoolTest {

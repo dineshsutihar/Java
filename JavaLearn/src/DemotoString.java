@@ -1,4 +1,3 @@
-package JavaLearning;
 
 public class DemotoString {
     public static void main(String[] args) {

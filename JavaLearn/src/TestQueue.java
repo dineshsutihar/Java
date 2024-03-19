@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class Queue {
     private int[] arr;

@@ -46,7 +46,7 @@ class Animal{
 }
 
 // put this class in different Dog.java file
-public class Dog extends Animal{
+class Dog extends Animal{
     public void display(){
         System.out.println("I am a dog.");
     }
@@ -61,6 +61,7 @@ public class Reflecton {
     
           // create an object of Class
           // using getClass()
+          @SuppressWarnings("rawtypes")
           Class obj = d1.getClass();
     
           // get name of the class
@@ -75,6 +76,7 @@ public class Reflecton {
           System.out.println("Modifier: " + mod);
     
           // get the superclass of Dog
+          @SuppressWarnings("rawtypes")
           Class superClass = obj.getSuperclass();
           System.out.println("Superclass: " + superClass.getName());
         }

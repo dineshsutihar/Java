@@ -1,4 +1,3 @@
-package JavaLearning;
 
 interface Sayable {
     default void say() {

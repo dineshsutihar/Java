@@ -1,4 +1,3 @@
-package JavaLearning;
 
 public class ToSting {
     // Java program to illustrate the

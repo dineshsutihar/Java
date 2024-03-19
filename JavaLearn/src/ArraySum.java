@@ -1,4 +1,3 @@
-package JavaLearning;
 
 import java.util.Scanner;
 

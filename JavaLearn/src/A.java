@@ -1,3 +1,8 @@
+class B {
+    public void f1(int x, int y) {
+        System.out.println(x + y);
+    }
+}
 
 class A extends B {
     public void f1(int x, int y) {
@@ -12,8 +17,4 @@ class A extends B {
     }
 
 
-class B {
-    public void f1(int x, int y) {
-        System.out.println(x + y);
-    }
 }

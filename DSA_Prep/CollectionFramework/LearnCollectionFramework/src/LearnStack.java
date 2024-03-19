@@ -19,6 +19,6 @@ public class LearnStack {
 //        to pop the value
         animals.pop();
         System.out.println(animals);
-
     }
+
 }

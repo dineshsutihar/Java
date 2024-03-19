@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class numbers_text {
     public static void main(String[] args) {

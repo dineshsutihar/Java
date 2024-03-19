@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class Testa {
     int a;// default access.

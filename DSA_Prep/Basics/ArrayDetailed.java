@@ -9,6 +9,7 @@ public class ArrayDetailed {
 
 
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         String name[] =new String[100]; // array of strings
 

@@ -1,6 +1,6 @@
 package JavaLearning.Lab_Work;
 
-public class Matrix {
+ class Matrix {
     int[][] data;
 
     public Matrix(int[][] data) {

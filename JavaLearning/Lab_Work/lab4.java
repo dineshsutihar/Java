@@ -1,6 +1,7 @@
 package JavaLearning.Lab_Work;
 
 public class lab4 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
 
         Temp1 obj1 = new Temp1();
@@ -10,7 +11,9 @@ public class lab4 {
 }
 
 class Temp1 {
+    @SuppressWarnings("unused")
     private int num1;
+    @SuppressWarnings("unused")
     private int num2;
 
     public Temp1() {

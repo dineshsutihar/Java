@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class Stack {
     private int stck[] = new int[10];

@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class Box {
     double width;

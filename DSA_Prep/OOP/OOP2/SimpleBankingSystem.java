@@ -60,6 +60,7 @@ public class SimpleBankingSystem {
 
     // Method for creating account
     public static void createAccount() {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         // Generating a random account number between 8 and 9 digits
@@ -89,6 +90,7 @@ public class SimpleBankingSystem {
 
     // Method for deleting account
     public static void deleteAccount() {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Account Number to Delete:");
@@ -110,6 +112,7 @@ public class SimpleBankingSystem {
 
     // Method for performing transaction
     public static void transaction() {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Account Number:");
@@ -134,6 +137,7 @@ public class SimpleBankingSystem {
 
         System.out.println("Enter Amount:");
         int amount = sc.nextInt();
+        
 
         // Perform the selected transaction and record it
         if (transactionType == 1) {
@@ -148,6 +152,7 @@ public class SimpleBankingSystem {
         }
 
         System.out.println("Transaction completed successfully!");
+        
     }
 
     // Method to query total balance of all accounts

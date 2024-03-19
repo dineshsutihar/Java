@@ -1,15 +1,14 @@
 package JavaLearning.Ravi;
 
-import java.util.*;
-import java.io.*;
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-import java.awt.Color.*;
-import java.awt.event.ActionEvent.*;
+
 import java.awt.event.ActionListener;
 
 class TRAIN {
+    @SuppressWarnings("unused")
     public static void main(String args[]) {
         JFrame f = new JFrame("railway");
         // f.getContentPane().setBackground(Color.PINK);
@@ -67,6 +66,7 @@ class TRAIN {
         f.add(b);
 
         b.addActionListener(new ActionListener() {
+            @SuppressWarnings("unused")
             public void actionPerformed(ActionEvent e) {
                 JFrame fb = new JFrame("menu");
                 fb.setSize(600, 600);

@@ -1,4 +1,3 @@
-package JavaLearning;
 
 class Bank {
     private long accontno = 123456;

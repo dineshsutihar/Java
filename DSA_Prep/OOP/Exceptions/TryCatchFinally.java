@@ -4,6 +4,7 @@ public class TryCatchFinally {
     public static void main(String[] args) {
         try {
           // code that generates exception
+          @SuppressWarnings("unused")
           int divideByZero = 5 / 0;
         }
     
@@ -14,6 +15,7 @@ public class TryCatchFinally {
         finally {
           System.out.println("This is the finally block");
         }
+        
       }
 }
 
